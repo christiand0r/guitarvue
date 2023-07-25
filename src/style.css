@@ -1,0 +1,37 @@
+/* Normalize Sheet */
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+/* Typography */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;700;900&display=swap");
+
+:root {
+  --color-primary: #e99401;
+  --color-black: #000;
+  --color-white: #fff;
+  --color-gray: #6c757d;
+  --color-gray-dark: #343a40;
+  --color-gray-100: #f8f9fa;
+  --color-gray-200: #e9ecef;
+  --color-gray-300: #dee2e6;
+  --color-gray-400: #ced4da;
+  --color-gray-500: #adb5bd;
+  --color-gray-600: #6c757d;
+  --color-gray-700: #495057;
+  --color-gray-800: #343a40;
+  --color-gray-900: #212529;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  position: relative;
+  margin: 0;
+}
