@@ -122,7 +122,7 @@ main {
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
     ),
-    url("img/header_bg_banner.jpg");
+    url("/img/header_bg_banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
